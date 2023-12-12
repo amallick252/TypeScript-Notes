@@ -1,0 +1,42 @@
+//setting git hub 
+git config --global user.name "My Name"
+git config --global user.email "someone@email.com"
+$ git config --list
+
+//Clone & status
+clone- clone Repo on a local machine(Local pc/laptop)
+git clone "link"> clones all files from github
+
+Note: cd > change directory
+type some letters > hit tab to auto complete
+clear> to clear terminal
+ls> list files
+ls -a> list hidden files
+
+Status- displays the state of the code
+git status>
+once modified(M)> 1.you need to add> 2.then commit
+if you add new file> it will show untracked(U), in git status
+
+//untracked> new files that git doesn't yet track
+//modified>changed
+//staged> file is ready to be committed
+//unmodified> unchanged
+
+//Add & commit
+add- adds new or changed files in your working directory to the git staging area
+git add "filename"> for adding one file
+git add .> add all files and modifieds
+commit- it is the record of change
+git commit -m "some-message"//write in "... message"
+
+//Push command
+push- upload local repo content to remote repo
+git push origin main
+
+//Init command
+Used for creating a new git repo
+
+
+
+
